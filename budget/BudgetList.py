@@ -1,7 +1,7 @@
 from . import Expense
 
 
-class BudgetList:
+class BudgetList():
     def __init__(self, budget):
         self.__init__(budget)
         self.sum_expenses = 0
