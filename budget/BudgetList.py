@@ -3,7 +3,7 @@ from . import Expense
 
 class BudgetList():
     def __init__(self, budget):
-        self.__init__(budget)
+        self.budget = budget
         self.sum_expenses = 0
         self.expenses = []
         self.sum_overages = 0
